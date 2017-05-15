@@ -1,0 +1,98 @@
+
+14:15:04
+
+Core\Exceptions\Fatal: Table 'mysite.board' doesn't exist in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(30): Core\Sql->select('SELECT SQL_CALC...', NULL, NULL)
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#4 {main}
+------------------------------------------------
+14:20:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''', ''' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(29): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#4 {main}
+------------------------------------------------
+14:23:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ='SELECT FOUND_ROWS()'' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(25): Core\Sql->select('SELECT * FROM  ...', Array)
+#2 C:\xampp\htdocs\mysite\m\navigation.php(34): Core\Model->one('SELECT FOUND_RO...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getRows()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------
+14:27:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ='SELECT FOUND_ROWS()'' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(25): Core\Sql->select('SELECT * FROM  ...', Array)
+#2 C:\xampp\htdocs\mysite\m\navigation.php(34): Core\Model->one('SELECT FOUND_RO...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getRows()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------
+14:27:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ='SELECT FOUND_ROWS()'' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(25): Core\Sql->select('SELECT * FROM  ...', Array)
+#2 C:\xampp\htdocs\mysite\m\navigation.php(34): Core\Model->one('SELECT FOUND_RO...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getRows()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------
+14:28:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(20): Core\Sql->select('SELECT * FROM ')
+#2 C:\xampp\htdocs\mysite\m\navigation.php(29): Core\Model->all('SELECT SQL_CALC...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getData()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------
+14:28:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ='SELECT FOUND_ROWS()'' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(25): Core\Sql->select('SELECT * FROM  ...', Array)
+#2 C:\xampp\htdocs\mysite\m\navigation.php(34): Core\Model->one('SELECT FOUND_RO...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getRows()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------
+14:29:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(20): Core\Sql->select('SELECT * FROM ')
+#2 C:\xampp\htdocs\mysite\m\navigation.php(34): Core\Model->all('SELECT FOUND_RO...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getRows()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------
+14:30:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\core\model.php(20): Core\Sql->select('SELECT * FROM ')
+#2 C:\xampp\htdocs\mysite\m\navigation.php(34): Core\Model->all('SELECT FOUND_RO...')
+#3 C:\xampp\htdocs\mysite\c\client\guestbook.php(16): M\Navigation->getRows()
+#4 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_index()
+#5 {main}
+------------------------------------------------

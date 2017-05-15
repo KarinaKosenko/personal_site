@@ -1,0 +1,9 @@
+
+13:58:04
+
+Core\Exceptions\Fatal: Column photo_link is not exists. in C:\xampp\htdocs\mysite\core\model.php:41
+Stack trace:
+#0 C:\xampp\htdocs\mysite\c\admin\profile.php(103): Core\Model->add(Array)
+#1 C:\xampp\htdocs\mysite\index.php(61): C\Admin\Profile->action_image()
+#2 {main}
+------------------------------------------------

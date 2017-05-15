@@ -1,0 +1,15 @@
+.form{
+			width:700px;
+			margin:0 auto;
+		}
+		#text{
+			width:80%;
+			height:150px;
+			border:1px solid #000;
+		}
+		.smiles{
+			text-align:center;
+		}
+		.smile{
+			cursor:pointer;
+		}

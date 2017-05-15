@@ -1,0 +1,64 @@
+
+14:19:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(62): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:20:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(62): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:21:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(62): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:21:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(63): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:22:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(64): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:22:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(64): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:23:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(65): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+14:23:04
+
+Core\Exceptions\E404: undefined action action_index in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(65): C\Base->__call('action_index', Array)
+#1 {main}
+------------------------------------------------
+15:13:04
+
+Core\Exceptions\E404: undefined action action_admin in C:\xampp\htdocs\mysite\c\base.php:16
+Stack trace:
+#0 C:\xampp\htdocs\mysite\index.php(63): C\Base->__call('action_admin', Array)
+#1 {main}
+------------------------------------------------

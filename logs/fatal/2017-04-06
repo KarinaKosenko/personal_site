@@ -1,0 +1,61 @@
+
+13:51:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+13:53:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+13:54:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+14:04:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+14:04:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+14:24:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(17): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(65): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------

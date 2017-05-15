@@ -1,0 +1,51 @@
+
+15:48:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10', '10'' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(31): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+15:48:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10', 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(31): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+15:48:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10', 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(31): Core\Sql->select('SELECT SQL_CALC...')
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+15:49:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10', 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(31): Core\Sql->select('SELECT SQL_CALC...', Array)
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
+15:50:04
+
+Core\Exceptions\Fatal: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10', 5' at line 1 in C:\xampp\htdocs\mysite\core\sql.php:86
+Stack trace:
+#0 C:\xampp\htdocs\mysite\core\sql.php(24): Core\Sql->check_query(Object(PDOStatement))
+#1 C:\xampp\htdocs\mysite\m\navigation.php(32): Core\Sql->select('SELECT SQL_CALC...', Array)
+#2 C:\xampp\htdocs\mysite\c\client\guestbook.php(39): M\Navigation->getData()
+#3 C:\xampp\htdocs\mysite\index.php(55): C\Client\Guestbook->action_page()
+#4 {main}
+------------------------------------------------
